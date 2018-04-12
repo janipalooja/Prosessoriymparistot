@@ -16,8 +16,8 @@ void printTime() {
     */
     hhmmss = sprintf (buffer, "%02d:%02d:%02d", hour(), minute(), second());
 
-    for(int l = 0; l <= hhmmss; l++) {
-      Serial.print(buffer[l]);
+    for(int i = 0; i <= hhmmss; i++) {
+      Serial.print(buffer[i]);
       }
       Serial.println();
 }
