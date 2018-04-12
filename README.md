@@ -1,2 +1,2 @@
 # Prosessoriymparistot
-OAMK, Tietotekniikan sovellusprojekti, Prosessoriympäristöt, Noppatehtävä
+OAMK, Tietotekniikan sovellusprojekti, Prosessoriympäristöt
