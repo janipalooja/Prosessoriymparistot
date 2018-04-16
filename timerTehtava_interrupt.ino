@@ -1,6 +1,6 @@
     /*
      * RYHMÄ 3
-     * Timer-tehtävä keskeytyksillä, ilman valmista kirjasto. Tehtävässä käytetty 16-bittistä timeriä (Timer1).
+     * Timer-tehtävä keskeytyksillä, ilman valmista kirjastoa. Tehtävässä käytetty 16-bittistä timeriä (Timer1).
      * Keskeytys tapa tässä esimerkissä: Compare Match Interrupt (kts. ATMEGA -datalehti s. 57)
      * Muita mahdollisia keskeytys tapoja ovat Overflow Interrupt ja Input Capture Interrupt.
      * 
@@ -84,7 +84,7 @@
 
 
         /*
-         * Asetetaan keskeytykset tapahtumaan 1s välein vertaamalla ).
+         * Asetetaan keskeytykset tapahtumaan 1s välein.
          * Laskutoimituksia:
          * 
          * Keskeytys taajuus (Hz) = 16MHz / (prescaler * (OCR1A + 1)), +1 koska compare match rekisteri alkaa indeksistä 0
