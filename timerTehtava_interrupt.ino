@@ -8,9 +8,10 @@
     #include < Time.h >
     #include < TimeLib.h >
 
-        // Funktio ajan tulostamiseksi sarjamonitorille.
-        void printTime() {
+    // Funktio ajan tulostamiseksi sarjamonitorille.
+    void printTime() {
 
+         // Merkkijonotaulukko johon aika tallennetaan halutussa esitysmuodossa.
             char timeFormat[9];
 
          // Sprintf -funktio muodostaa saman tyylisen merkkijonon, kuten esim. c-kielen printf -funktio, mutta ei kuitenkaan itsessään tulosta mitään, vaan haluttu sisältö tallennetaan merkkijonona.
