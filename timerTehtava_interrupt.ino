@@ -72,8 +72,9 @@
             sei();
     }
 
-        // ISR = Interrupt Service Routine, TIMER1_COMPA_vect = keskeytysvektori
+    // ISR = Interrupt Service Routine, TIMER1_COMPA_vect = keskeytysvektori
     ISR(TIMER1_COMPA_vect) {
+        
         // Kun keskeytys tapahtuu -> kutsutaan funktio, joka tulostaa ajan sarjamonitorille
             printTime();
     }
